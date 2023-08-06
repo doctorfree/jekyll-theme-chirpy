@@ -10,8 +10,8 @@ labels: enhancement
 - Make sure no [similar issue(including closed ones)][issues] exists.
 - Make sure the request is based on the latest code in the `master` branch.
 
-[wiki]: https://github.com/cotes2020/jekyll-theme-chirpy/wiki
-[issues]: https://github.com/cotes2020/jekyll-theme-chirpy/issues?q=is%3Aissue
+[wiki]: https://github.com/doctorfree/jekyll-theme-custom/wiki
+[issues]: https://github.com/doctorfree/jekyll-theme-custom/issues?q=is%3Aissue
 
 ## Is your feature request related to a problem? Please describe
 

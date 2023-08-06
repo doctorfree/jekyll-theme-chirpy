@@ -10,8 +10,8 @@ labels: question
 - Make sure no [similar issue(including closed ones)][issues] exists.
 - Try to find the answer on [Jekyll Forum][forum] and [StackOverflow][stack_overflow].
 
-[wiki]: https://github.com/cotes2020/jekyll-theme-chirpy/wiki
-[issues]: https://github.com/cotes2020/jekyll-theme-chirpy/issues?q=is%3Aissue
+[wiki]: https://github.com/doctorfree/jekyll-theme-custom/wiki
+[issues]: https://github.com/doctorfree/jekyll-theme-custom/issues?q=is%3Aissue
 [forum]: https://talk.jekyllrb.com/
 [stack_overflow]: https://stackoverflow.com/questions/tagged/jekyll
 

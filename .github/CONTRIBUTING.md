@@ -49,7 +49,7 @@ And then enable `husky`:
 husky install
 ```
 
-[pr-issue]: https://github.com/cotes2020/jekyll-theme-chirpy/issues/new?labels=enhancement&template=feature_request.md
+[pr-issue]: https://github.com/doctorfree/jekyll-theme-custom/issues/new?labels=enhancement&template=feature_request.md
 [gh-pr]: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests
 [cc]: https://www.conventionalcommits.org/
 [ci]: https://en.wikipedia.org/wiki/Continuous_integration

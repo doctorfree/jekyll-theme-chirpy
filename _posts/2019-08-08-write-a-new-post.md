@@ -1,13 +1,13 @@
 ---
 title: Writing a New Post
-author: cotes
+author: doctorfree
 date: 2019-08-08 14:10:00 +0800
 categories: [Blogging, Tutorial]
 tags: [writing]
 render_with_liquid: false
 ---
 
-This tutorial will guide you how to write a post in the _Chirpy_ template, and it's worth reading even if you've used Jekyll before, as many features require specific variables to be set.
+This tutorial will guide you how to write a post in the _Custom_ template, and it's worth reading even if you've used Jekyll before, as many features require specific variables to be set.
 
 ## Naming and Path
 
@@ -143,7 +143,7 @@ In order to prevent the page content layout from shifting when the image is load
 > For an SVG, you have to at least specify its _width_, otherwise it won't be rendered.
 {: .prompt-info }
 
-Starting from _Chirpy v5.0.0_, `height` and `width` support abbreviations (`height` → `h`, `width` → `w`). The following example has the same effect as the above:
+Starting from _Custom v5.0.0_, `height` and `width` support abbreviations (`height` → `h`, `width` → `w`). The following example has the same effect as the above:
 
 ```markdown
 ![Desktop View](/assets/img/sample/mockup.png){: w="700" h="400" }

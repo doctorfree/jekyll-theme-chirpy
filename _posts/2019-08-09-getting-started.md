@@ -18,16 +18,16 @@ Follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installat
 
 There are two ways to create a new repository for this theme:
 
-- [**Using the Chirpy Starter**](#option-1-using-the-chirpy-starter) - Easy to upgrade, isolates irrelevant project files so you can focus on writing.
+- [**Using the Custom Starter**](#option-1-using-the-custom-starter) - Easy to upgrade, isolates irrelevant project files so you can focus on writing.
 - [**GitHub Fork**](#option-2-github-fork) - Convenient for custom development, but difficult to upgrade. Unless you are familiar with Jekyll and are determined to tweak or contribute to this project, this approach is not recommended.
 
-#### Option 1. Using the Chirpy Starter
+#### Option 1. Using the Custom Starter
 
-Sign in to GitHub and browse to [**Chirpy Starter**][starter], click the button <kbd>Use this template</kbd> > <kbd>Create a new repository</kbd>, and name the new repository `USERNAME.github.io`, where `USERNAME` represents your GitHub username.
+Sign in to GitHub and browse to [**Custom Starter**][starter], click the button <kbd>Use this template</kbd> > <kbd>Create a new repository</kbd>, and name the new repository `USERNAME.github.io`, where `USERNAME` represents your GitHub username.
 
 #### Option 2. GitHub Fork
 
-Sign in to GitHub to [fork **Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy/fork), and then rename it to `USERNAME.github.io` (`USERNAME` means your username).
+Sign in to GitHub to [fork **Custom**](https://github.com/doctorfree/jekyll-theme-custom/fork), and then rename it to `USERNAME.github.io` (`USERNAME` means your username).
 
 Next, clone your site to local machine. In order to build JavaScript files later, we need to install [Node.js][nodejs], and then run the tool:
 
@@ -68,13 +68,13 @@ Update the variables of `_config.yml`{: .filepath} as needed. Some of them are t
 
 If you need to customize the stylesheet, copy the theme's `assets/css/style.scss`{: .filepath} to the same path on your Jekyll site, and then add the custom style at the end of it.
 
-Starting with version `4.1.0`, if you want to overwrite the SASS variables defined in `_sass/addon/variables.scss`{: .filepath}, copy the main sass file `_sass/jekyll-theme-chirpy.scss`{: .filepath} into the `_sass`{: .filepath} directory in your site's source, then create a new file `_sass/variables-hook.scss`{: .filepath} and assign new value.
+Starting with version `4.1.0`, if you want to overwrite the SASS variables defined in `_sass/addon/variables.scss`{: .filepath}, copy the main sass file `_sass/jekyll-theme-custom.scss`{: .filepath} into the `_sass`{: .filepath} directory in your site's source, then create a new file `_sass/variables-hook.scss`{: .filepath} and assign new value.
 
 ### Customing Static Assets
 
 Static assets configuration was introduced in version `5.1.0`. The CDN of the static assets is defined by file `_data/origin/cors.yml`{: .filepath }, and you can replace some of them according to the network conditions in the region where your website is published.
 
-Also, if you'd like to self-host the static assets, please refer to the [_chirpy-static-assets_](https://github.com/cotes2020/chirpy-static-assets#readme).
+Also, if you'd like to self-host the static assets, please refer to the [_custom-static-assets_](https://github.com/doctorfree/custom-static-assets#readme).
 
 ### Running Local Server
 
@@ -145,6 +145,6 @@ $ docker run -it --rm \
 Unless you specified the output path, the generated site files will be placed in folder `_site`{: .filepath} of the project's root directory. Now you should upload those files to the target server.
 
 [nodejs]: https://nodejs.org/
-[starter]: https://github.com/cotes2020/chirpy-starter
+[starter]: https://github.com/doctorfree/custom-starter
 [pages-workflow-src]: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow
-[latest-tag]: https://github.com/cotes2020/jekyll-theme-chirpy/tags
+[latest-tag]: https://github.com/doctorfree/jekyll-theme-custom/tags

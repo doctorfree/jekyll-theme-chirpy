@@ -9,8 +9,8 @@ about: Create a report to help us improve
 - Make sure no [similar issue(including closed ones)][issues] exists.
 - Make sure the bug is found in the latest code of the `master` branch.
 
-[wiki]: https://github.com/cotes2020/jekyll-theme-chirpy/wiki
-[issues]: https://github.com/cotes2020/jekyll-theme-chirpy/issues?q=is%3Aissue
+[wiki]: https://github.com/doctorfree/jekyll-theme-custom/wiki
+[issues]: https://github.com/doctorfree/jekyll-theme-custom/issues?q=is%3Aissue
 
 ## Describe the bug
 
@@ -42,7 +42,7 @@ Steps to reproduce the behavior:
 | `gem -v`                          |         |
 | `bundle -v`                       |         |
 | `bundle exec jekyll -v`           |         |
-| `bundle info jekyll-theme-chirpy` |         |
+| `bundle info jekyll-theme-custom` |         |
 
 <!-- If necessary, uncomment and fill in the following list:
 

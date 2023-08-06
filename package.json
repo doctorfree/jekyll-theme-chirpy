@@ -1,17 +1,17 @@
 {
-  "name": "jekyll-theme-chirpy",
+  "name": "jekyll-theme-custom",
   "version": "6.1.0",
   "description": "A minimal, responsive and feature-rich Jekyll theme for technical writing.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cotes2020/jekyll-theme-chirpy.git"
+    "url": "git+https://github.com/doctorfree/jekyll-theme-custom.git"
   },
-  "author": "Cotes Chung",
+  "author": "Ronald Record",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cotes2020/jekyll-theme-chirpy/issues"
+    "url": "https://github.com/doctorfree/jekyll-theme-custom/issues"
   },
-  "homepage": "https://github.com/cotes2020/jekyll-theme-chirpy/",
+  "homepage": "https://github.com/doctorfree/jekyll-theme-custom/",
   "scripts": {
     "prebuild": "npx rimraf assets/js/dist",
     "build": "NODE_ENV=production npx rollup -c --bundleConfigAsCjs",

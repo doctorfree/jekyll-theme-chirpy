@@ -1,13 +1,13 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |spec|
-  spec.name          = "jekyll-theme-chirpy"
+  spec.name          = "jekyll-theme-custom"
   spec.version       = "6.1.0"
-  spec.authors       = ["Cotes Chung"]
-  spec.email         = ["cotes.chung@gmail.com"]
+  spec.authors       = ["Ronald Record"]
+  spec.email         = ["ronaldrecord@gmail.com"]
 
   spec.summary       = "A minimal, responsive and feature-rich Jekyll theme for technical writing."
-  spec.homepage      = "https://github.com/cotes2020/jekyll-theme-chirpy"
+  spec.homepage      = "https://github.com/doctorfree/jekyll-theme-custom"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f|
@@ -15,11 +15,11 @@ Gem::Specification.new do |spec|
   }
 
   spec.metadata = {
-    "bug_tracker_uri"   => "https://github.com/cotes2020/jekyll-theme-chirpy/issues",
-    "documentation_uri" => "https://github.com/cotes2020/jekyll-theme-chirpy/#readme",
-    "homepage_uri"      => "https://cotes2020.github.io/chirpy-demo",
-    "source_code_uri"   => "https://github.com/cotes2020/jekyll-theme-chirpy",
-    "wiki_uri"          => "https://github.com/cotes2020/jekyll-theme-chirpy/wiki",
+    "bug_tracker_uri"   => "https://github.com/doctorfree/jekyll-theme-custom/issues",
+    "documentation_uri" => "https://github.com/doctorfree/jekyll-theme-custom/#readme",
+    "homepage_uri"      => "https://doctorfree.github.io/custom-demo",
+    "source_code_uri"   => "https://github.com/doctorfree/jekyll-theme-custom",
+    "wiki_uri"          => "https://github.com/doctorfree/jekyll-theme-custom/wiki",
     "plugin_type"       => "theme"
   }
 

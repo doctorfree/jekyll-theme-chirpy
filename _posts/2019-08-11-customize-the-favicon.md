@@ -1,12 +1,12 @@
 ---
 title: Customize the Favicon
-author: cotes
+author: doctorfree
 date: 2019-08-11 00:34:00 +0800
 categories: [Blogging, Tutorial]
 tags: [favicon]
 ---
 
-The [favicons](https://www.favicon-generator.org/about/) of [**Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy/) are placed in the directory `assets/img/favicons/`{: .filepath}. You may want to replace them with your own. The following sections will guide you to create and replace the default favicons.
+The [favicons](https://www.favicon-generator.org/about/) of [**Custom**](https://github.com/doctorfree/jekyll-theme-custom/) are placed in the directory `assets/img/favicons/`{: .filepath}. You may want to replace them with your own. The following sections will guide you to create and replace the default favicons.
 
 ## Generate the favicon
 
@@ -25,7 +25,7 @@ And then copy the remaining image files (`.PNG`{: .filepath} and `.ICO`{: .filep
 
 The following table will help you understand the changes to the favicon files:
 
-| File(s)             | From Online Tool                  | From Chirpy |
+| File(s)             | From Online Tool                  | From Custom |
 |---------------------|:---------------------------------:|:-----------:|
 | `*.PNG`             | ✓                                 | ✗           |
 | `*.ICO`             | ✓                                 | ✗           |

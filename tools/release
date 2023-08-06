@@ -23,7 +23,7 @@ STAGING_BRANCH="$(git symbolic-ref refs/remotes/origin/HEAD | sed 's@^refs/remot
 
 PROD_BRANCH="production"
 
-GEM_SPEC="jekyll-theme-chirpy.gemspec"
+GEM_SPEC="jekyll-theme-custom.gemspec"
 
 NODE_CONFIG="package.json"
 
@@ -31,7 +31,7 @@ JS_DIST="assets/js/dist"
 BACKUP_PATH="$(mktemp -d)"
 
 FILES=(
-  "_sass/jekyll-theme-chirpy.scss"
+  "_sass/jekyll-theme-custom.scss"
   "$GEM_SPEC"
   "$NODE_CONFIG"
 )
@@ -44,7 +44,7 @@ TOOLS=(
 )
 
 help() {
-  echo "A tool to release new version Chirpy gem"
+  echo "A tool to release new version Custom gem"
   echo
   echo "Usage:"
   echo
@@ -122,10 +122,10 @@ _bump_gemspec() {
 
 # 1. Bump latest version number to the following files:
 #
-#   - _sass/jekyll-theme-chirpy.scss
+#   - _sass/jekyll-theme-custom.scss
 #   - _javascript/copyright
 #   - assets/js/dist/*.js (will be built by gulp later)
-#   - jekyll-theme-chirpy.gemspec
+#   - jekyll-theme-custom.gemspec
 #
 # 2. Create a commit to save the changes.
 bump() {
