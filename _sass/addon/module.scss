@@ -30,14 +30,18 @@
     .anchor {
       visibility: hidden;
       opacity: 0;
-      transition: opacity 0.25s ease-in, visibility 0s ease-in 0.25s;
+      transition:
+        opacity 0.25s ease-in,
+        visibility 0s ease-in 0.25s;
     }
 
     &:hover {
       .anchor {
         visibility: visible;
         opacity: 1;
-        transition: opacity 0.25s ease-in, visibility 0s ease-in 0s;
+        transition:
+          opacity 0.25s ease-in,
+          visibility 0s ease-in 0s;
       }
     }
   }
@@ -65,7 +69,8 @@
 }
 
 %link-underline {
-  border-bottom: 1px solid var(--link-underline-color);
+  text-decoration: none;
+  border-bottom: none;
 }
 
 %clickable-transition {
@@ -165,7 +170,7 @@
   transform: translateX(-50%);
 }
 
-@mixin prompt($type, $fa-content, $fa-style: 'solid') {
+@mixin prompt($type, $fa-content, $fa-style: "solid") {
   &.prompt-#{$type} {
     background-color: var(--prompt-#{$type}-bg);
 
